@@ -410,7 +410,7 @@ function buildAppMenu (options = {}) {
         {
           label: l('appMenuReportBug'),
           click: function () {
-            openTabInWindow('https://github.com/minbrowser/min/issues/new')
+            openTabInWindow('https://github.com/Rolenzo9194/rninedesktop/issues/new')
           }
         },
         {
@@ -422,7 +422,7 @@ function buildAppMenu (options = {}) {
         {
           label: l('appMenuViewGithub'),
           click: function () {
-            openTabInWindow('https://github.com/minbrowser/min')
+            openTabInWindow('https://github.com/Rolenzo9194/rninedesktop')
           }
         },
         ...(process.platform !== 'darwin' ? [{ type: 'separator' }] : []),
