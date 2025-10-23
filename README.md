@@ -78,3 +78,4 @@ If you're experiencing a bug or have a suggestion for how to improve rninedeskto
 - The wiki has an [overview of rninedesktop's architecture](https://github.com/minbrowser/min/wiki/Architecture).
 - rninedesktop uses the [Standard](https://github.com/feross/standard) code style; [most editors](https://standardjs.com/#are-there-text-editor-plugins) have plugins available to auto-format your code.
 - If you see something that's missing, or run into any problems, please open an issue!
+- Thanks to PalmerAL and Min Browser for the open-source nature.
