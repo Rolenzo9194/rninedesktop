@@ -94,7 +94,7 @@ function buildAppMenu (options = {}) {
     accelerator: 'CmdOrCtrl+,',
     click: function (item, window) {
       sendIPCToWindow(window, 'addTab', {
-        url: 'min://app/pages/settings/index.html'
+        url: 'rninedesktop://app/pages/settings/index.html'
       })
     }
   }
@@ -430,6 +430,7 @@ function buildAppMenu (options = {}) {
           label: l('appMenuAbout').replace('%n', app.name),
           click: function (item, window) {
             var info = [
+	      'rninedesktop v 0.0.0',
               'Min v' + app.getVersion(),
               'Chromium v' + process.versions.chrome
             ]

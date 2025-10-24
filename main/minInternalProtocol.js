@@ -2,7 +2,7 @@ const { pathToFileURL } = require('url')
 
 protocol.registerSchemesAsPrivileged([
   {
-    scheme: 'min',
+    scheme: 'rninedesktop',
     privileges: {
       standard: true,
       secure: true,
@@ -12,7 +12,7 @@ protocol.registerSchemesAsPrivileged([
 ])
 
 function registerBundleProtocol (ses) {
-  ses.protocol.handle('min', (req) => {
+  ses.protocol.handle('rninedesktop', (req) => {
     let { host, pathname } = new URL(req.url)
 
     if (pathname.charAt(0) === '/') {
